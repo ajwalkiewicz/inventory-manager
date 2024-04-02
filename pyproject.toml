@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inventory_manager"
+version = "0.0.1"
+authors = [
+  { name="Adam Walkiewicz", email="aj.walkiewicz@gmail.com" },
+]
+description = "A small inventory manager package"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ajwalkiewicz/inventorymanager"
+Issues = "https://github.com/ajwalkiewicz/inventorymanager/issues"
